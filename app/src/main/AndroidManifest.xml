@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
-        <!-- Actividad Principal -->
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <!-- Actividad de Comprobante -->
+
         <activity
             android:name=".ReceiptActivity"
             android:exported="false"/>

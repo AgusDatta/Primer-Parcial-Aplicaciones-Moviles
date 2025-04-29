@@ -13,15 +13,15 @@ class ReceiptActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ReceiptScreen( // Nombre de función en minúscula
+            ReceiptScreen(
                 amount = intent.getDoubleExtra("AMOUNT", 0.0)
             )
         }
     }
 }
 
-@Composable // Anotación requerida
-fun ReceiptScreen(amount: Double) { // Nombre en minúscula
+@Composable
+fun ReceiptScreen(amount: Double) {
     Column(
         modifier = Modifier
             .fillMaxSize()
